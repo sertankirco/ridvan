@@ -277,8 +277,8 @@ export default function App() {
               </div>
               <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
                 <div className="flex items-center justify-between space-x-2 mb-1">
-                  <h3 className="font-bold text-slate-900">Mesleki Başlangıç</h3>
-                  <time className="font-mono italic text-sm text-slate-500">1998 - 2000</time>
+                  <h3 className="font-bold text-slate-900">dış ticaret sektörüne giriş, gümrük stajı ile ilk deneyimler</h3>
+                  <time className="font-mono italic text-sm text-slate-500">1992 - 1998</time>
                 </div>
                 <div className="text-blue-600 font-medium mb-2">Gümrük Müşavir Yardımcısı</div>
                 <p className="text-slate-600 text-sm">Sektöre giriş ve ilk deneyimler.</p>
