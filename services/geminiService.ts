@@ -2,7 +2,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { AIResponse } from '../types';
 
 const getClient = () => {
-    if (!process.env.API_KEY) {
+    if (!import.meta.env.API_KEY) {
         throw new Error("API Key bulunamadı. Lütfen environment variable'larını kontrol edin.");
     }
     return new GoogleGenAI({ apiKey: process.env.API_KEY });
